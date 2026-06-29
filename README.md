@@ -4,8 +4,6 @@ Personal portfolio website built with Next.js to showcase my projects, skills, a
 
 ## Live Demo
 
-Add your Vercel link here:
-
 `https://shiva-portfolio-alpha.vercel.app/`
 
 ## Features
