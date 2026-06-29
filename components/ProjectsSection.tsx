@@ -25,7 +25,7 @@ export const ProjectsSection = () => {
                 "Vercel Deployment",
                 "Responsive Design",
               ],
-              image: "/code.jpg",
+              image: "/portfolio_home.png",
             },
             {
               title: "Data Extraction using Web Scraping",
@@ -87,7 +87,7 @@ export const ProjectsSection = () => {
                     <ul className="space-y-1.5 sm:space-y-2 text-sm sm:text-base">
                       {project.techDetails.map((detail) => (
                         <li key={detail} className="flex items-center gap-2">
-                          <span className="text-green-600">â–¹</span>
+                          <span className="text-green-600">▹</span>
                           <span className="text-gray-700">{detail}</span>
                         </li>
                       ))}

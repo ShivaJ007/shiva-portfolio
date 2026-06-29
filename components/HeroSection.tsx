@@ -118,16 +118,16 @@ export const HeroSection = () => {
             {[
               {
                 name: "GitHub",
-                icon: "ðŸ™",
+                icon: "🐙",
                 href: "https://github.com/ShivaJ007",
               },
               {
                 name: "LinkedIn",
-                icon: "ðŸ’¼",
+                icon: "💼",
                 href: "https://www.linkedin.com/in/shivakumar-482b69211",
               },
-              { name: "Twitter", icon: "ðŸ¦", href: "#" },
-              { name: "Blog", icon: "âœï¸", href: "#" },
+              { name: "Twitter", icon: "🐦", href: "#" },
+              { name: "Blog", icon: "✍️", href: "#" },
             ].map((social) => (
               <a
                 key={social.name}
