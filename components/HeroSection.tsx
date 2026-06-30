@@ -103,7 +103,7 @@ export const HeroSection = () => {
               </span>
             </a>
             <a
-              href="/resume.pdf"
+              href="/BIS Product Category.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 sm:px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-full hover:opacity-90 transition text-center"
