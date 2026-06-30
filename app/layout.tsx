@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shiva Kumar - Web Developer",
+  title: "Shiva Kumar | Frontend Developer",
   description:
-    "Welcome to my portfolio! I am a passionate web developer creating modern, responsive, and user-friendly websites. Specializing in frontend technologies and interactive user interfaces, I build engaging web experiences that make an impact.",
+    "Frontend Developer building fast, modern, responsive and user-friendly web experiences using React and Next.js.",
   keywords: [
     "Web Developer",
     "Frontend Developer",
@@ -39,14 +39,14 @@ export const metadata: Metadata = {
     title: "Shiva Kumar - Web Developer Portfolio",
     description:
       "Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.",
-    url: "https://your-domain.com",
+    url: "https://shiva-portfolio-alpha.vercel.app/",
     siteName: "Shiva Kumar - Portfolio",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Shiva Kumar - Web Developer Portfolio",
+        alt: "Shiva Kumar Portfolio",
       },
     ],
     locale: "en_US",
@@ -54,11 +54,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shiva Kumar - Web Developer",
+    title: "Shiva kumar | Frontend Developer",
     description:
-      "Passionate web developer crafting modern and engaging digital experiences. Explore my projects and web development expertise.",
+      "Frontend Developer building fast, modern and responsive web experiences.",
     creator: "@yourusername",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
@@ -70,6 +70,9 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
+  },
+  icons: {
+    icon: "/icon.png",
   },
 };
 
