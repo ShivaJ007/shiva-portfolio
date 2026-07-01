@@ -3,6 +3,7 @@ import { SkillsSection } from "@/components/SkillsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { WebCapabilitiesSection } from "@/components/WebCapabilitiesSection";
 import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
 
 export default function WebDeveloperPortfolio() {
   return (
@@ -12,6 +13,7 @@ export default function WebDeveloperPortfolio() {
       <ProjectsSection />
       <WebCapabilitiesSection />
       <ContactSection />
+      <Footer />
     </main>
   );
 }
