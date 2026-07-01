@@ -13,6 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://shiva-portfolio-alpha.vercel.app"),
   title: "Shiva Kumar | Frontend Developer",
   description:
     "Frontend Developer building fast, modern, responsive and user-friendly web experiences using React and Next.js.",
