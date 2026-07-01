@@ -1,4 +1,14 @@
 import React from "react";
+import {
+  Atom,
+  Rocket,
+  Laptop,
+  Flame,
+  Github,
+  Linkedin,
+  Twitter,
+  PenLine,
+} from "lucide-react";
 
 export const HeroSection = () => {
   return (
@@ -11,19 +21,17 @@ export const HeroSection = () => {
       {/* Floating Tech Icons */}
       <div className="absolute inset-0 overflow-hidden">
         {[
-          { icon: "⚛️", delay: "0s", position: "top-20 left-1/4" },
-          { icon: "🚀", delay: "2s", position: "top-40 right-1/3" },
-          { icon: "💻", delay: "1s", position: "bottom-32 left-1/3" },
-          { icon: "🔥", delay: "3s", position: "bottom-20 right-1/4" },
+          { icon: Atom, delay: "0s", position: "top-20 left-1/4" },
+          { icon: Rocket, delay: "2s", position: "top-40 right-1/3" },
+          { icon: Laptop, delay: "1s", position: "bottom-32 left-1/3" },
+          { icon: Flame, delay: "3s", position: "bottom-20 right-1/4" },
         ].map((item, index) => (
           <div
             key={index}
             className={`absolute ${item.position} animate-float opacity-50`}
             style={{ animationDelay: item.delay }}
           >
-            <span className="text-4xl cursor-default select-none">
-              {item.icon}
-            </span>
+            <item.icon className="w-9 h-9 text-blue-500 cursor-default select-none" />
           </div>
         ))}
       </div>
@@ -117,16 +125,16 @@ export const HeroSection = () => {
             {[
               {
                 name: "GitHub",
-                icon: "🐙",
+                icon: Github,
                 href: "https://github.com/ShivaJ007",
               },
               {
                 name: "LinkedIn",
-                icon: "💼",
+                icon: Linkedin,
                 href: "https://www.linkedin.com/in/shivakumar-482b69211",
               },
-              { name: "Twitter", icon: "🐦", href: "#" },
-              { name: "Blog", icon: "✍️", href: "#" },
+              { name: "Twitter", icon: Twitter, href: "#" },
+              { name: "Blog", icon: PenLine, href: "#" },
             ].map((social) => (
               <a
                 key={social.name}
@@ -136,9 +144,7 @@ export const HeroSection = () => {
                 target="_blank" // <-- Naya tab me open karne ke liye
                 rel="noopener noreferrer" // <-- Security ke liye, jab target="_blank" ho
               >
-                <span className="text-xl sm:text-2xl group-hover:scale-110 transition-transform inline-block">
-                  {social.icon}
-                </span>
+                <social.icon className="w-5 h-5 sm:w-6 sm:h-6 group-hover:scale-110 transition-transform" />
               </a>
             ))}
           </div>
