@@ -1,14 +1,6 @@
 import React from "react";
-import {
-  Atom,
-  Rocket,
-  Laptop,
-  Flame,
-  Github,
-  Linkedin,
-  Twitter,
-  PenLine,
-} from "lucide-react";
+import { Atom, Rocket, Laptop, Flame, PenLine } from "lucide-react";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const HeroSection = () => {
   return (
@@ -125,15 +117,15 @@ export const HeroSection = () => {
             {[
               {
                 name: "GitHub",
-                icon: Github,
+                icon: FaGithub,
                 href: "https://github.com/ShivaJ007",
               },
               {
                 name: "LinkedIn",
-                icon: Linkedin,
+                icon: FaLinkedin,
                 href: "https://www.linkedin.com/in/shivakumar-482b69211",
               },
-              { name: "Twitter", icon: Twitter, href: "#" },
+              { name: "Twitter", icon: FaTwitter, href: "#" },
               { name: "Blog", icon: PenLine, href: "#" },
             ].map((social) => (
               <a
