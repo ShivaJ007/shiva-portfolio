@@ -90,7 +90,7 @@ export const ContactSection = () => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/shivakumar-482b69211"
+            href="https://www.linkedin.com/in/shiva-kumar-482b69211"
             target="_blank" // Opens in new tab
             rel="noopener noreferrer" // Security best practice
             className="text-gray-600 hover:text-gray-900 transition-colors p-2 hover:bg-gray-100 rounded-lg cursor-default select-none"
