@@ -44,7 +44,7 @@ export const ProjectsSection = () => {
                 "Handled edge cases and implemented robust error logging",
               ],
               image: "/web_scraping.jpg",
-              githubLink: "https://github.com/ShivaJ007/Ngo_darpan_scraper", // agar GitHub link hai to
+              githubLink: "https://github.com/ShivaJ007/Data-Extraction-using-Web-Scraping", // agar GitHub link hai to
             },
           ].map((project) => (
             <div
@@ -93,6 +93,18 @@ export const ProjectsSection = () => {
                       ))}
                     </ul>
                   </div>
+                  {/* GitHub Link */}
+                  {project.githubLink && (  
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-sm sm:text-base text-blue-600 hover:text-blue-800 font-medium hover:underline"
+                    >
+                      View on GitHub →
+                    </a>
+                  )}
+
                 </div>
 
                 <div className="relative h-full min-h-[300px] lg:min-h-full">
