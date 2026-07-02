@@ -126,7 +126,7 @@ export const HeroSection = () => {
                 href: "https://www.linkedin.com/in/shivakumar-482b69211",
               },
               { name: "Twitter", icon: FaTwitter, href: "#" },
-              { name: "Blog", icon: PenLine, href: "#" },
+              { name: "Blog", icon: PenLine, href: "https://x.com/ShivaKu98" },
             ].map((social) => (
               <a
                 key={social.name}
