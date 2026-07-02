@@ -35,7 +35,6 @@ export const SkillsSection = () => {
                 { name: "React.js", level: 90 },
                 { name: "Next.js", level: 95 },
                 { name: "TypeScript", level: 85 },
-                //  { name: "Database Design", level: 88 },
               ],
               icon: "⚡",
               color: "from-green-400 to-green-600",
@@ -50,7 +49,6 @@ export const SkillsSection = () => {
               ],
               icon: "🚀",
               color: "from-teal-400 to-cyan-600", // add new line
-              // color: "from-purple-400 to-purple-600",
             },
             {
               category: "Performance & Tools",
@@ -60,7 +58,7 @@ export const SkillsSection = () => {
                 { name: "Vite / Webpack", level: 85 },
                 { name: "Testing (Jest / RTL)", level: 80 },
               ],
-              icon: "🚀",
+              icon: "🛠️",
               color: "from-teal-400 to-cyan-600",
             },
           ].map((category) => (
